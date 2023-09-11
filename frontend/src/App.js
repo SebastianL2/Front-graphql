@@ -1,7 +1,15 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import TaskForm from './components/TasksForm';
 
 const App = () => {
+
+  const [showTaskForm, setShowTaskForm] = useState(false);
+
+  const toggleTaskForm = () => {
+    setShowTaskForm(!showTaskForm);
+  };
+
   return (
     <div>
        <h1>Tareas</h1>
