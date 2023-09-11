@@ -9,12 +9,14 @@
 #### Instrucciones al clonar el API
 Instalar las depencias necesarias 👇🏻
 
+```bash
 npm install
+```
 
 Ejecutar la API de forma local 👇🏻
 
 ```bash
-npm run dev
+npm start
 ```
 
 ### Implementaciones:
