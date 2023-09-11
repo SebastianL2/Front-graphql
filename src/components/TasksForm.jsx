@@ -25,7 +25,7 @@ const TaskForm = ({ onClose }) => {
         variables: { task: { title, description } },
       });
 
-      console.log('Nueva tarea creada:', data.createTask);
+      alert('Nueva tarea creada:', data.createTask);
 
       // Limpiar el formulario después de la creación exitosa
       setTitle('');
@@ -34,7 +34,7 @@ const TaskForm = ({ onClose }) => {
       // Cerrar el formulario
       onClose();
     } catch (error) {
-      console.error('Error al crear tarea:', error);
+      alert('Error al crear tarea:', error);
     }
   };
 
