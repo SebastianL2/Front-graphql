@@ -25,7 +25,9 @@ npm start
 - React
 
 
+## Casos de Uso: 
 
+![Vistaprevia](https://github.com/SebastianL2/api-market/blob/main/IMG/Diagrama%20en%20blanco%20(15).png?raw=true)
 
 
 
