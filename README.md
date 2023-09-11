@@ -1,3 +1,35 @@
+# Front COnsumo de GrapQL
+### Taller - Electiva II
+
+##### Integrantes de grupo
+- [Sebastan Cely Peña]
+
+
+---
+#### Instrucciones al clonar el API
+Instalar las depencias necesarias 👇🏻
+
+```bash
+npm install
+```
+
+Ejecutar la API de forma local 👇🏻
+
+```bash
+npm start
+```
+
+### Implementaciones:
+
+- MongoDb CLoud
+- React
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
