@@ -1,4 +1,4 @@
-# API  GraphQl
+# Front COnsumo de GrapQL
 ### Taller - Electiva II
 
 ##### Integrantes de grupo
