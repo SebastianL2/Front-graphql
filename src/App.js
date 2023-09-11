@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import TaskForm from './components/TasksForm';
 import TaskList from './components/TaskList'; // Importa el componente TaskList
-import { useQuery } from '@apollo/client';
-import { GET_ALL_TASKS } from './queries/queries'; // Importa la consulta
+
 
 const App = () => {
   const [showTaskForm, setShowTaskForm] = useState(false);
