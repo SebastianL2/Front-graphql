@@ -5,7 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const client = new ApolloClient({
-  uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index', 
+  uri: 'https://api-graph-ql-henna.vercel.app/api', 
   cache: new InMemoryCache(),
 });
 
