@@ -5,7 +5,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/api', 
+  uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index', 
   cache: new InMemoryCache(),
 });
 
